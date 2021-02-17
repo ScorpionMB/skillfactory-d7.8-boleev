@@ -1,0 +1,28 @@
+{% extends "layout/basic.html" %}
+
+{% block title%}Страница издательств{% endblock %}
+
+    {% block content %}
+
+    {% for pub in publishers %}
+    <ul class="pub">
+        <h3>Издательство: {{ pub.title }}</h3>
+        <hr>
+        <li>
+            {% for book in pub.books_publisher.all %}
+            <h5 class="book">{{ book.title }}</h5>
+            <ul>
+                <li>Автор: {{ book.author }}</li>
+                <li>Издательство: {{ book.publisher }}</li>
+                <li>Год издания: {{ book.year_release }}</li>
+                <li class="ISBN"><small>ISBN: {{ book.ISBN}}</small></li>
+                <hr class="mini_hr">
+            </ul>
+            {% endfor %}
+        </li>
+    </ul>
+    {% endfor %}
+
+    {% endblock %}
+
+</html>

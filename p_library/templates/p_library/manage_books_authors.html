@@ -1,0 +1,20 @@
+{% extends "layout/basic.html" %}
+
+{% block title%}Форма создания и редактирования Авторов и книг{% endblock %}
+
+    {% block content %}
+        <form method="post">
+            {% csrf_token %}
+            {{ author_formset.management_form }}
+            {% for form in author_formset %}
+            {{ form.as_ul }}
+            <br>
+            {% endfor %}
+            {{ book_formset.management_form }}
+            {% for form in book_formset %}
+            {{ form.as_ul }}
+            <br>
+            {% endfor %}
+            <input type="submit" value="Сохранить"/>
+        </form>
+    {% endblock %}

@@ -1,0 +1,19 @@
+{% extends "layout/basic.html" %}
+
+{% block title %}Регистрация пользователя{% endblock %}
+
+{% block content %}
+
+<form class="hello" method="post">  
+  {% csrf_token %}  
+    {{ form.as_ul }}  
+    <input type="submit" value="Зарегистрироваться">  
+</form>
+<hr>
+
+<h5 class="hello">Или можно авторизоваться через ГИТХАБ</h5>
+
+{% load socialaccount %}
+<h4 class="out"><a href="{% provider_login_url 'github' method='oauth2' %}">GITHUB</a></h4> 
+
+{% endblock %}  
