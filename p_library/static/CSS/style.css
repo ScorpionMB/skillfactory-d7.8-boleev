@@ -1,0 +1,58 @@
+.pub {
+    list-style-type: none;
+    margin-left: 20px;
+    max-width: 600px;
+    padding: 15px 25px;
+    color: white;
+    background-color: lightblue;
+    text-shadow: 1px 1px 5px black;
+}
+
+.book {
+    color: rgb(66, 155, 167);
+    text-shadow: 1px 1px 1px black;
+}
+
+hr {
+    max-width: 500px;
+    height: 2px;
+    margin-left: 0;
+    background-color: #fff;
+}
+
+.mini_hr {
+    max-width: 300px;
+}
+
+.ISBN {
+    font-size: 14px;
+    list-style-type: none;
+    margin-top: 24px;
+}
+
+.index {
+    max-width: 600px;
+    margin: 40px;
+    padding: 30px;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+    background-color: lightblue; 
+}
+
+.link {
+    color: rgb(66, 155, 167);
+    text-shadow: none;
+}
+
+.hello {
+    margin: 60px 60px;
+    padding: 30px;
+    background-color: lightgray;
+    max-width: 1000px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.out {
+    margin-left: 60px;
+}
