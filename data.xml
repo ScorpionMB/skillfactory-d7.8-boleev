@@ -1,0 +1,1838 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-02-16T22:07:26.232Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "p_library_auth",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-02-16T22:09:40.484Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "p_library_auth",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-02-16T22:45:42.900Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Дмитрий Бормотов",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-02-16T22:46:35.955Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Федор Варганов",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-02-16T22:47:47.460Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Федор Варганов",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d\", \"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-02-16T22:50:20.265Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Алексей Катин",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-02-16T22:51:33.726Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Сергей Петров",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-02-16T22:52:28.432Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Павел Смирнов",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-02-16T22:53:26.606Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Максим Никитин",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-02-16T22:54:04.750Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Медный всадник",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"\\u044d\\u043a\\u0437\\u0435\\u043c\\u043f\\u043b\\u044f\\u0440\", \"object\": \"1460da6d-a336-4bfc-8044-7f159d6847f9 (\\u041c\\u0435\\u0434\\u043d\\u044b\\u0439 \\u0432\\u0441\\u0430\\u0434\\u043d\\u0438\\u043a)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-02-16T22:54:21.268Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Ревизор",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"\\u044d\\u043a\\u0437\\u0435\\u043c\\u043f\\u043b\\u044f\\u0440\", \"object\": \"77851bd2-639b-4fbb-9ebc-b07fa8e80686 (\\u0420\\u0435\\u0432\\u0438\\u0437\\u043e\\u0440)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-02-16T22:56:33.290Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Граф Нулин",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}, {\"added\": {\"name\": \"\\u044d\\u043a\\u0437\\u0435\\u043c\\u043f\\u043b\\u044f\\u0440\", \"object\": \"b62b62c4-8eaa-45b0-9b84-71cb097e914d (\\u0413\\u0440\\u0430\\u0444 \\u041d\\u0443\\u043b\\u0438\\u043d)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-02-16T22:57:32.816Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "So Long, and Thanks for All the Fish",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-02-16T22:57:46.877Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Медный всадник",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-02-16T22:58:03.380Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Новь",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-02-16T22:58:33.006Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "The Growth of the Soil",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-02-16T22:58:55.489Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "The Catcher in the Rye",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-02-16T22:59:19.486Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "The Hitchhiker's Guide to the Galaxy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2021-02-16T22:59:36.939Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Ревизор",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2021-02-16T22:59:54.289Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Граф Нулин",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2021-02-16T23:00:14.549Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Руслан и Людмила",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2021-02-16T23:04:13.657Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "So Long, and Thanks for All the Fish",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2021-02-16T23:04:28.762Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "So Long, and Thanks for All the Fish",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2021-02-16T23:04:48.783Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Новь",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2021-02-16T23:05:03.839Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Новь",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2021-02-16T23:08:30.979Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "So Long, and Thanks for All the Fish",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2021-02-16T23:08:46.106Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "So Long, and Thanks for All the Fish",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2021-02-16T23:09:07.546Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "So Long, and Thanks for All the Fish",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}, {\"added\": {\"name\": \"\\u044d\\u043a\\u0437\\u0435\\u043c\\u043f\\u043b\\u044f\\u0440\", \"object\": \"79792f60-9513-4653-85d9-998a32b96091 (So Long, and Thanks for All the Fish)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2021-02-16T23:09:17.358Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Медный всадник",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2021-02-16T23:09:29.074Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Медный всадник",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2021-02-16T23:09:36.568Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Новь",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2021-02-16T23:09:52.388Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Новь",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2021-02-16T23:10:01.258Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "The Growth of the Soil",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2021-02-16T23:10:16.604Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "The Growth of the Soil",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2021-02-16T23:10:25.029Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "The Catcher in the Rye",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2021-02-16T23:10:47.597Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "The Catcher in the Rye",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2021-02-16T23:10:55.752Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "The Hitchhiker's Guide to the Galaxy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2021-02-16T23:11:12.483Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "The Hitchhiker's Guide to the Galaxy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2021-02-16T23:11:25.223Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Ревизор",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2021-02-16T23:11:36.607Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Ревизор",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2021-02-16T23:11:46.167Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Граф Нулин",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2021-02-16T23:12:01.257Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Граф Нулин",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2021-02-16T23:12:08.405Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Руслан и Людмила",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2021-02-16T23:12:28.462Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Руслан и Людмила",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add автор",
+    "content_type": 7,
+    "codename": "add_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change автор",
+    "content_type": 7,
+    "codename": "change_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete автор",
+    "content_type": 7,
+    "codename": "delete_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view автор",
+    "content_type": 7,
+    "codename": "view_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add книга",
+    "content_type": 8,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change книга",
+    "content_type": 8,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete книга",
+    "content_type": 8,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view книга",
+    "content_type": 8,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add друг",
+    "content_type": 9,
+    "codename": "add_friend"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change друг",
+    "content_type": 9,
+    "codename": "change_friend"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete друг",
+    "content_type": 9,
+    "codename": "delete_friend"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view друг",
+    "content_type": 9,
+    "codename": "view_friend"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add издательство",
+    "content_type": 10,
+    "codename": "add_publisher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change издательство",
+    "content_type": 10,
+    "codename": "change_publisher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete издательство",
+    "content_type": 10,
+    "codename": "delete_publisher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view издательство",
+    "content_type": 10,
+    "codename": "view_publisher"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add экземпляр",
+    "content_type": 11,
+    "codename": "add_bookinstance"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change экземпляр",
+    "content_type": 11,
+    "codename": "change_bookinstance"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete экземпляр",
+    "content_type": 11,
+    "codename": "delete_bookinstance"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view экземпляр",
+    "content_type": 11,
+    "codename": "view_bookinstance"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add user profile",
+    "content_type": 12,
+    "codename": "add_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change user profile",
+    "content_type": 12,
+    "codename": "change_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete user profile",
+    "content_type": 12,
+    "codename": "delete_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view user profile",
+    "content_type": 12,
+    "codename": "view_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 13,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 13,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 13,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 13,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add email address",
+    "content_type": 14,
+    "codename": "add_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change email address",
+    "content_type": 14,
+    "codename": "change_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete email address",
+    "content_type": 14,
+    "codename": "delete_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view email address",
+    "content_type": 14,
+    "codename": "view_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add email confirmation",
+    "content_type": 15,
+    "codename": "add_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change email confirmation",
+    "content_type": 15,
+    "codename": "change_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete email confirmation",
+    "content_type": 15,
+    "codename": "delete_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view email confirmation",
+    "content_type": 15,
+    "codename": "view_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add social account",
+    "content_type": 16,
+    "codename": "add_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change social account",
+    "content_type": 16,
+    "codename": "change_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete social account",
+    "content_type": 16,
+    "codename": "delete_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view social account",
+    "content_type": 16,
+    "codename": "view_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add social application",
+    "content_type": 17,
+    "codename": "add_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change social application",
+    "content_type": 17,
+    "codename": "change_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete social application",
+    "content_type": 17,
+    "codename": "delete_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view social application",
+    "content_type": 17,
+    "codename": "view_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add social application token",
+    "content_type": 18,
+    "codename": "add_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change social application token",
+    "content_type": 18,
+    "codename": "change_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete social application token",
+    "content_type": 18,
+    "codename": "delete_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view social application token",
+    "content_type": 18,
+    "codename": "view_socialtoken"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$7kWH9GnagxHp$qZqewZdjTdBuWw7vDgQA3TxGAGcyRmH28ENRt359gkY=",
+    "last_login": "2021-02-16T22:42:07.532Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-02-16T22:05:04.337Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "!kaZaddVf6KmA0Qwx0RdlaF3ouvE3AM2bnoDaLZbH",
+    "last_login": "2021-02-16T22:21:16.522Z",
+    "is_superuser": false,
+    "username": "ScorpionMB",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-02-16T22:07:43.654Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "p_library",
+    "model": "author"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "p_library",
+    "model": "book"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "p_library",
+    "model": "friend"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "p_library",
+    "model": "publisher"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "p_library",
+    "model": "bookinstance"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "p_library",
+    "model": "userprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "account",
+    "model": "emailaddress"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "account",
+    "model": "emailconfirmation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialaccount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialapp"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialtoken"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "612wecstwdgyzfr3hi09srx6kwnlesg2",
+  "fields": {
+    "session_data": "e30:1lC8fc:KUugycTx11Q-wwZ6sb0DRrG12riAhZ8KuWDLdEOmeP4",
+    "expire_date": "2021-03-02T22:18:12.588Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7jj08fy1adk7jay22m5b3x30x3ygvj4d",
+  "fields": {
+    "session_data": "e30:1lC8Y4:W2CQowCvNqSz_44TKxHVCyAy9WBqpw5zsKDFLEV83Wo",
+    "expire_date": "2021-03-02T22:10:24.635Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kv3otm0n6iix12az4h91ttcxp238w01h",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCnDAgu3XuGhhkGqRpISrsy3l2bdKHb_977LzXGdSnj2mUep6TOCtThd6PID6kbSPdYb01zq8s8kd4UvdOury3J87K7fwcl9vKtkTNlRzxktAmdGZjABn90CcEDCLBQyGTReXCABsgaiCYYLwHyKaj3B-U0N0Y:1lC92l:H-CCApCzFie8nsD1oGrEDVF0-V-ZHDWNwL7pWjBWoec",
+    "expire_date": "2021-03-02T22:42:07.557Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ry15oaq46bhethg1pu633jwp1to1tud5",
+  "fields": {
+    "session_data": "eyJhY2NvdW50X3ZlcmlmaWVkX2VtYWlsIjpudWxsLCJhY2NvdW50X3VzZXIiOiIyIn0:1lC8VT:NsT-vVbsDvVOY88gsbFq37QkXAMGinoLmJdDC-38bpg",
+    "expire_date": "2021-03-02T22:07:43.781Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sl4m9jbbrnxzfk2ha5rccuj4pt6o3pie",
+  "fields": {
+    "session_data": "e30:1lC8Zb:3VvJS65PGHW7F0xMM1OmorNtRFqwjZ9GZkV_3Qh4XgU",
+    "expire_date": "2021-03-02T22:11:59.847Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "slqvu2swin9xf2xpbwjb4ihfeta9blkx",
+  "fields": {
+    "session_data": "e30:1lC8dg:EC2L3noAUaj616CGQ4PFQZlEgBs8F4AN-jRzTHVx2_0",
+    "expire_date": "2021-03-02T22:16:12.686Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y6p7ki5v8nyzjh7juxw5tm7l6ccf19wj",
+  "fields": {
+    "session_data": "e30:1lC8cU:6BTBjVpIyT4zVJXm03k83EZnKMwIKEUWWlgQKMGYFPo",
+    "expire_date": "2021-03-02T22:14:58.463Z"
+  }
+},
+{
+  "model": "p_library.author",
+  "pk": 1,
+  "fields": {
+    "full_name": "Николай Васильевич Гоголь",
+    "birth_year": 1809,
+    "country": "RU"
+  }
+},
+{
+  "model": "p_library.author",
+  "pk": 2,
+  "fields": {
+    "full_name": "Пушкин Александр Сергеевич",
+    "birth_year": 1799,
+    "country": "RU"
+  }
+},
+{
+  "model": "p_library.author",
+  "pk": 3,
+  "fields": {
+    "full_name": "Тургенев Иван Сергеевич",
+    "birth_year": 1818,
+    "country": "RU"
+  }
+},
+{
+  "model": "p_library.author",
+  "pk": 4,
+  "fields": {
+    "full_name": "Douglas Adams",
+    "birth_year": 1952,
+    "country": "UK"
+  }
+},
+{
+  "model": "p_library.author",
+  "pk": 5,
+  "fields": {
+    "full_name": "Jerome David Salinger",
+    "birth_year": 1919,
+    "country": "US"
+  }
+},
+{
+  "model": "p_library.author",
+  "pk": 6,
+  "fields": {
+    "full_name": "Knut Hamsun",
+    "birth_year": 1859,
+    "country": "NO"
+  }
+},
+{
+  "model": "p_library.book",
+  "pk": 1,
+  "fields": {
+    "ISBN": "9785170622207",
+    "title": "The Growth of the Soil",
+    "description": "Story of a man who settles and lives in rural Norway.",
+    "year_release": 1917,
+    "author": 6,
+    "copy_count": 2,
+    "price": "939.70",
+    "publisher": 5,
+    "cover_art": "cover_book/The_Growth_of_the_Soil.jpg"
+  }
+},
+{
+  "model": "p_library.book",
+  "pk": 2,
+  "fields": {
+    "ISBN": "9785931240053",
+    "title": "Руслан и Людмила",
+    "description": "Волшебная сказка, вдохновлённая древнерусскими былинами.",
+    "year_release": 1820,
+    "author": 2,
+    "copy_count": 1,
+    "price": "789.15",
+    "publisher": 1,
+    "cover_art": "cover_book/Ruslan_i_Ludmila.jpg"
+  }
+},
+{
+  "model": "p_library.book",
+  "pk": 3,
+  "fields": {
+    "ISBN": "9788588603271",
+    "title": "Ревизор",
+    "description": "Комедия в пяти действиях русского писателя Николая Васильевича Гоголя.",
+    "year_release": 1835,
+    "author": 1,
+    "copy_count": 3,
+    "price": "2284.66",
+    "publisher": 3,
+    "cover_art": "cover_book/Revisor.jpg"
+  }
+},
+{
+  "model": "p_library.book",
+  "pk": 4,
+  "fields": {
+    "ISBN": "9789755630311",
+    "title": "Медный всадник",
+    "description": "Поэма А. С. Пушкина.",
+    "year_release": 1837,
+    "author": 2,
+    "copy_count": 4,
+    "price": "1884.04",
+    "publisher": 2,
+    "cover_art": "cover_book/Med_vsadnik.jpg"
+  }
+},
+{
+  "model": "p_library.book",
+  "pk": 5,
+  "fields": {
+    "ISBN": "9785457325753",
+    "title": "Граф Нулин",
+    "description": "Короткая шуточная поэма, написанная Пушкиным всего за два утра 13 и 14 декабря 1825 года во время ссылки в Михайловском.",
+    "year_release": 1825,
+    "author": 2,
+    "copy_count": 2,
+    "price": "2170.84",
+    "publisher": 1,
+    "cover_art": "cover_book/Graf_Nulin.jpg"
+  }
+},
+{
+  "model": "p_library.book",
+  "pk": 6,
+  "fields": {
+    "ISBN": "9781072923893",
+    "title": "Новь",
+    "description": "Последний по времени и самый длинный роман Ивана Сергеевича Тургенева.",
+    "year_release": 1877,
+    "author": 3,
+    "copy_count": 4,
+    "price": "1644.10",
+    "publisher": 4,
+    "cover_art": "cover_book/Nov.jpg"
+  }
+},
+{
+  "model": "p_library.book",
+  "pk": 7,
+  "fields": {
+    "ISBN": "9781447297017",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "description": "Has become an international multi-media phenomenon",
+    "year_release": 1979,
+    "author": 4,
+    "copy_count": 3,
+    "price": "2044.16",
+    "publisher": 7,
+    "cover_art": "cover_book/the-hitchhikers-guide-to-the-galaxy.jpg"
+  }
+},
+{
+  "model": "p_library.book",
+  "pk": 8,
+  "fields": {
+    "ISBN": "9783036959542",
+    "title": "So Long, and Thanks for All the Fish",
+    "description": "Is the fourth book of the Hitchhiker's Guide to the Galaxy",
+    "year_release": 1984,
+    "author": 4,
+    "copy_count": 4,
+    "price": "2092.53",
+    "publisher": 6,
+    "cover_art": "cover_book/so-long-and-thanks-for-all-the-fish_NOdBV8u.jpg"
+  }
+},
+{
+  "model": "p_library.book",
+  "pk": 9,
+  "fields": {
+    "ISBN": "9781447297017",
+    "title": "The Catcher in the Rye",
+    "description": "It was originally intended for adults but is often read by adolescents for its themes of angst and alienation, and as a critique on superficiality in society.",
+    "year_release": 1951,
+    "author": 5,
+    "copy_count": 3,
+    "price": "803.60",
+    "publisher": 7,
+    "cover_art": "cover_book/The_Catcher_in_the_Rye.jpg"
+  }
+},
+{
+  "model": "p_library.publisher",
+  "pk": 1,
+  "fields": {
+    "title": "ЭКСМО",
+    "country": "RU"
+  }
+},
+{
+  "model": "p_library.publisher",
+  "pk": 2,
+  "fields": {
+    "title": "АСТ",
+    "country": "RU"
+  }
+},
+{
+  "model": "p_library.publisher",
+  "pk": 3,
+  "fields": {
+    "title": "ЦентрПолиграф",
+    "country": "RU"
+  }
+},
+{
+  "model": "p_library.publisher",
+  "pk": 4,
+  "fields": {
+    "title": "Азбука",
+    "country": "RU"
+  }
+},
+{
+  "model": "p_library.publisher",
+  "pk": 5,
+  "fields": {
+    "title": "Альфа - книга",
+    "country": "RU"
+  }
+},
+{
+  "model": "p_library.publisher",
+  "pk": 6,
+  "fields": {
+    "title": "Oldenburg",
+    "country": "DE"
+  }
+},
+{
+  "model": "p_library.publisher",
+  "pk": 7,
+  "fields": {
+    "title": "Грани",
+    "country": "DE"
+  }
+},
+{
+  "model": "p_library.friend",
+  "pk": 1,
+  "fields": {
+    "full_name": "Дмитрий Бормотов",
+    "phone": "+7 911-912-5403",
+    "email": "d.bormotov@gmail.com"
+  }
+},
+{
+  "model": "p_library.friend",
+  "pk": 2,
+  "fields": {
+    "full_name": "Федор Варганов",
+    "phone": "+7 (926) 196-367",
+    "email": "varganov@list.ru"
+  }
+},
+{
+  "model": "p_library.friend",
+  "pk": 3,
+  "fields": {
+    "full_name": "Алексей Катин",
+    "phone": "+7 (916) 654-715",
+    "email": "a.katin@gmail.com"
+  }
+},
+{
+  "model": "p_library.friend",
+  "pk": 4,
+  "fields": {
+    "full_name": "Сергей Петров",
+    "phone": "+7 (916) 245-252",
+    "email": "s.petrov@mail.ru"
+  }
+},
+{
+  "model": "p_library.friend",
+  "pk": 5,
+  "fields": {
+    "full_name": "Павел Смирнов",
+    "phone": "+7 (916) 259-455",
+    "email": "p.smirnov@mail.ru"
+  }
+},
+{
+  "model": "p_library.friend",
+  "pk": 6,
+  "fields": {
+    "full_name": "Максим Никитин",
+    "phone": "+7 (929) 619-122",
+    "email": "m.nikitin@gmail.com"
+  }
+},
+{
+  "model": "p_library.bookinstance",
+  "pk": "1460da6d-a336-4bfc-8044-7f159d6847f9",
+  "fields": {
+    "book": 4,
+    "friend": 3,
+    "data": "2021-01-05"
+  }
+},
+{
+  "model": "p_library.bookinstance",
+  "pk": "77851bd2-639b-4fbb-9ebc-b07fa8e80686",
+  "fields": {
+    "book": 3,
+    "friend": 1,
+    "data": "2021-01-07"
+  }
+},
+{
+  "model": "p_library.bookinstance",
+  "pk": "79792f60-9513-4653-85d9-998a32b96091",
+  "fields": {
+    "book": 8,
+    "friend": 5,
+    "data": "2021-01-06"
+  }
+},
+{
+  "model": "p_library.bookinstance",
+  "pk": "b62b62c4-8eaa-45b0-9b84-71cb097e914d",
+  "fields": {
+    "book": 5,
+    "friend": 6,
+    "data": "2021-01-09"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 1,
+  "fields": {
+    "provider": "github",
+    "name": "p_library_auth",
+    "client_id": "1d6075ed957a9da56299",
+    "secret": "b9aefc55244f35e263b784fcef7b7ecd2906f216",
+    "key": "",
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "socialaccount.socialaccount",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "provider": "github",
+    "uid": "68664263",
+    "last_login": "2021-02-16T22:21:16.411Z",
+    "date_joined": "2021-02-16T22:07:43.701Z",
+    "extra_data": "{\"login\": \"ScorpionMB\", \"id\": 68664263, \"node_id\": \"MDQ6VXNlcjY4NjY0MjYz\", \"avatar_url\": \"https://avatars.githubusercontent.com/u/68664263?v=4\", \"gravatar_id\": \"\", \"url\": \"https://api.github.com/users/ScorpionMB\", \"html_url\": \"https://github.com/ScorpionMB\", \"followers_url\": \"https://api.github.com/users/ScorpionMB/followers\", \"following_url\": \"https://api.github.com/users/ScorpionMB/following{/other_user}\", \"gists_url\": \"https://api.github.com/users/ScorpionMB/gists{/gist_id}\", \"starred_url\": \"https://api.github.com/users/ScorpionMB/starred{/owner}{/repo}\", \"subscriptions_url\": \"https://api.github.com/users/ScorpionMB/subscriptions\", \"organizations_url\": \"https://api.github.com/users/ScorpionMB/orgs\", \"repos_url\": \"https://api.github.com/users/ScorpionMB/repos\", \"events_url\": \"https://api.github.com/users/ScorpionMB/events{/privacy}\", \"received_events_url\": \"https://api.github.com/users/ScorpionMB/received_events\", \"type\": \"User\", \"site_admin\": false, \"name\": null, \"company\": null, \"blog\": \"\", \"location\": null, \"email\": null, \"hireable\": null, \"bio\": null, \"twitter_username\": null, \"public_repos\": 22, \"public_gists\": 0, \"followers\": 0, \"following\": 0, \"created_at\": \"2020-07-22T19:56:36Z\", \"updated_at\": \"2021-02-16T20:52:04Z\"}"
+  }
+},
+{
+  "model": "socialaccount.socialtoken",
+  "pk": 1,
+  "fields": {
+    "app": 1,
+    "account": 1,
+    "token": "719a16c84c0aa4a5d9fa451801c5c311247ebe94",
+    "token_secret": "",
+    "expires_at": null
+  }
+}
+]
